@@ -1,1 +1,41 @@
 /* Aquí estara el estilo de la web */
+/*Paleta de colores para la web:
+    Blanco Roto: #F8F8F8
+    Gris Oscuro Suave: #4A4A4A
+    Azul Verdoso (Teal): #20B2AA
+    Verde Suave: #66BB6A
+    Naranja/Coral Suave: #FF7043  
+*/
+
+
+header {
+    background-color: #f8f8f8;
+
+}
+
+.Encabezado_principal{
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+
+button {
+    /*Definimos la posicion del boton como estatica
+    el borde del boton en color negro
+    el radio del boton en 5 pixeles para suavizar el contorno
+    el color del boton como azul verdoso
+    separacion interna de 3 pixeles
+    */
+
+    position: static;
+    border-color: black;
+    border-radius: 5px;
+    background-color: #20B2AA;
+    padding: 3px;
+
+}
+
+
+
