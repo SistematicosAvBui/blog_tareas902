@@ -10,7 +10,7 @@
 
 header {
     background-color: #f8f8f8;
-    
+
 }
 
 .Encabezado_principal{
@@ -20,6 +20,20 @@ header {
     word-spacing: 5px;
 }
 
+
+.todos_los_botones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    width: fit-content;
+    margin: 0;
+
+}
 
 button {
     /*Definimos la posicion del boton como estatica
