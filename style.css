@@ -7,6 +7,12 @@
     Naranja/Coral Suave: #FF7043  
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 header {
     background-color: #66BB6A;
@@ -34,23 +40,45 @@ button {
     border-color: black;
     border-radius: 5px;
     background-color: #4A4A4A;
-    padding: 20px 25px;
+    padding: 20px 40px;
     cursor: pointer;
 
 }
 
 .botones_sitios {
-  display: flex;
-  justify-content: center;  
-  align-items: center;      
-  gap: 10px;                 
-  flex-wrap: wrap;           
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 10px;                 
+    flex-wrap: wrap;           
+}
+
+details {
+    margin-top: 15px;
+    text-align: center;
 }
 
 summary {
-    text-align: center
-    
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    display: block;
 }
+
+.tabla_horario {
+    margin-top: 25px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    border-color: #000000;
+    background-color: #f8f8f8;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+
 
 
 
