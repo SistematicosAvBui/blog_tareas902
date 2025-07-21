@@ -3,101 +3,114 @@
 <head>
     <title>BLOG 902</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<header>
     <h1 style="text-align:center">📚 BLOG DE TAREAS</h1>
-
     <div class="botones_sitios">
-                <button>Mural</button>
-                <button>De Interés</button>
+        <button>Mural</button>
+        <button>De Interés</button>
+        <details id="detallesHorario">
+            <summary>Horarios y Tareas</summary>
+        </details>
     </div>
+</header>
 
-    <details>
-        <summary>Horarios y Tareas</summary>
-        <table class="tabla_horario" border="2">
-            <tr>
-                <th>Horario</th>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miércoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-            </tr>
-            <tr>
-                <td>6 : 30 - 7 : 20</td>
-                <td>Expresión Artística</td>
-                <td>Sociales</td>
-                <td>Sociales</td>
-                <td>Taller</td>
-                <td>Edu Física</td>
-            </tr>
-            <tr>
-                <td>7 : 20 - 8 : 05</td>
-                <td>Expresión Artística</td>
-                <td>Sociales</td>
-                <td>Sociales</td>
-                <td>Taller</td>
-                <td>Edu Física</td>
-            </tr>
-            <tr>
-                <td>8 : 05 - 8 : 50</td>
-                <td>Biología</td>
-                <td>Matemáticas</td>
-                <td>Dibujo</td>
-                <td>Taller</td>
-                <td>Informática</td>
-            </tr>
-            <tr>
-                <td>8 : 50 - 9 : 20</td>
-                <td colspan="5" align="center">DESCANSO</td>
-            </tr>
-            <tr>
-                <td>9 : 20 - 10 : 05</td>
-                <td>Biología</td>
-                <td>Inglés</td>
-                <td>Dibujo</td>
-                <td>Taller</td>
-                <td>Informática</td>
-            </tr>
-            <tr>
-                <td>10 : 05 - 10 : 50</td>
-                <td>Inglés</td>
-                <td>Castellano</td>
-                <td>Matemáticas</td>
-                <td>Taller</td>
-                <td>Matemáticas</td>
-            </tr>
-            <tr>
-                <td>10 : 50 - 11 : 40</td>
-                <td>Inglés</td>
-                <td>Castellano</td>
-                <td>Matemáticas</td>
-                <td>Taller</td>
-                <td>Matemáticas</td>
-            </tr>
-            <tr>
-                <td>11 : 40 - 12 : 10</td>
-                <td colspan="5" align="center">DESCANSO</td>
-            </tr>
-            <tr>
-                <td>12 : 10 - 1 : 00</td>
-                <td>Castellano</td>
-                <td>Física</td>
-                <td>Filosofía</td>
-                <td>Taller</td>
-                <td>Religión</td>
-            </tr>
-            <tr>
-                <td>1 : 00 - 1 : 45</td>
-                <td>Castellano</td>
-                <td>Física</td>
-                <td>Filosofía</td>
-                <td>Taller</td>
-                <td>Religión</td>
-            </tr>
-        </table>
-    </details>
+<div id="contenidoHorario" class="tabla-container">
+    <table class="tabla_horario" border="2">
+        <tr>
+            <th>Horario</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>6 : 30 - 7 : 20</td>
+            <td>Expresión Artística</td>
+            <td>Sociales</td>
+            <td>Sociales</td>
+            <td>Taller</td>
+            <td>Edu Física</td>
+        </tr>
+        <tr>
+            <td>7 : 20 - 8 : 05</td>
+            <td>Expresión Artística</td>
+            <td>Sociales</td>
+            <td>Sociales</td>
+            <td>Taller</td>
+            <td>Edu Física</td>
+        </tr>
+        <tr>
+            <td>8 : 05 - 8 : 50</td>
+            <td>Biología</td>
+            <td>Matemáticas</td>
+            <td>Dibujo</td>
+            <td>Taller</td>
+            <td>Informática</td>
+        </tr>
+        <tr>
+            <td>8 : 50 - 9 : 20</td>
+            <td colspan="5" align="center">DESCANSO</td>
+        </tr>
+        <tr>
+            <td>9 : 20 - 10 : 05</td>
+            <td>Biología</td>
+            <td>Inglés</td>
+            <td>Dibujo</td>
+            <td>Taller</td>
+            <td>Informática</td>
+        </tr>
+        <tr>
+            <td>10 : 05 - 10 : 50</td>
+            <td>Inglés</td>
+            <td>Castellano</td>
+            <td>Matemáticas</td>
+            <td>Taller</td>
+            <td>Matemáticas</td>
+        </tr>
+        <tr>
+            <td>10 : 50 - 11 : 40</td>
+            <td>Inglés</td>
+            <td>Castellano</td>
+            <td>Matemáticas</td>
+            <td>Taller</td>
+            <td>Matemáticas</td>
+        </tr>
+        <tr>
+            <td>11 : 40 - 12 : 10</td>
+            <td colspan="5" align="center">DESCANSO</td>
+        </tr>
+        <tr>
+            <td>12 : 10 - 1 : 00</td>
+            <td>Castellano</td>
+            <td>Física</td>
+            <td>Filosofía</td>
+            <td>Taller</td>
+            <td>Religión</td>
+        </tr>
+        <tr>
+            <td>1 : 00 - 1 : 45</td>
+            <td>Castellano</td>
+            <td>Física</td>
+            <td>Filosofía</td>
+            <td>Taller</td>
+            <td>Religión</td>
+        </tr>
+    </table>
+</div>
+
+<script>
+    const detalles = document.getElementById("detallesHorario");
+    const contenido = document.getElementById("contenidoHorario");
+
+    detalles.addEventListener("toggle", () => {
+        contenido.style.display = detalles.open ? "block" : "none";
+    });
+</script>
 
 </body>
 </html>
